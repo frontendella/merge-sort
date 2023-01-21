@@ -1,0 +1,19 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="utf-8" />
+        <title>Algorithms</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://unpkg.com/mocha@7.1.1/mocha.css" />
+    </head>
+    <body>
+        <div id="mocha"></div>
+        <script src="https://unpkg.com/mocha@7.1.1/mocha.js"></script>
+
+        <script class="mocha-init">
+        mocha.setup('bdd');
+        mocha.checkLeaks();
+        </script>
+
+        <script src="index.pack.js"></script>
+    </body>
+</html>
